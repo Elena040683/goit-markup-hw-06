@@ -626,7 +626,6 @@
               class="subscribe-input"
               type="email"
               name="user_email"
-              id="mail"
             />
             <button type="submit" class="subscribe-btn">
               Подписаться
@@ -674,27 +673,21 @@
               </svg>
             </div>
 
-            <label for="comment" class="modal-label"> Комментарий</label>
+            <label for="comment" class="modal-label">Комментарий</label>
             <textarea
-              placeholder="Введите текст"
               class="modal-input comment"
               name="comment"
               id="comment"
-              rows="10"
-            >
-            </textarea>
+              placeholder="Введите текст"
+            ></textarea>
 
-            <label for="agreement" class="checkbox-label">
-              <input
-                type="checkbox"
-                name="agreement"
-                id="agreement"
-                class="check-input"
-              />
+            <label class="check">
+              <input type="checkbox" name="agreement" class="check-input" />
               <span class="check-icon"></span>
               Соглашаюсь с рассылкой и принимаю
-              <a class="modal-link" href=""> Условия договора</a>
+              <a href="" class="modal-link">Условия договора</a>
             </label>
+
             <button type="submit" class="button btn-modal">Отправить</button>
           </div>
         </form>
